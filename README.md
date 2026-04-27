@@ -2,14 +2,14 @@
 Basic brick Break game
 This is the BRICK bREAKER program made by Sahil Singh.
 
-In detail:
-This project was initially made in 2018 as part of my Primary High School Project(10th grade basically ). 
-Brickbreaker is just another section in the project.
-There were other games as well but I lost them. So I decided to just remake them and store it for other learners. 
-You are free to add features to these (I'll make a list of features I want to implement below).
-Use the code to your preferences for learning. Good luck :D
+A 2D brick breaker game built in Java using Swing for rendering and game-loop driven updates. Originally written as a school project in 2018, rebuilt and re-uploaded as a learning reference.
 
-Features to implement;
--Adding themes 
--Randomizing the brick positions
--Adding levels
+Implemented:
+Game loop with paddle, ball, and a static brick grid
+Collision detection between ball ↔ paddle, ball ↔ bricks, ball ↔ walls
+Score tracking and life system with reset-on-death
+Single-screen gameplay (no levels)
+
+Stack: Java, Swing, AWT
+Not implemented (open for contribution): randomized brick layouts, multiple levels, themes, sound.
+Code is intentionally kept simple as a reference for beginners learning game loops and 2D collision logic in Java.
